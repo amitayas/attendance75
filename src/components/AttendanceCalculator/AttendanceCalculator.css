@@ -1,0 +1,19 @@
+.wrapper{
+    margin:  auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:xx-large;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.inputfield{
+    font-size: large;
+}
+
+#calculateButton{
+    font-size: large;
+}
