@@ -30,6 +30,7 @@ export const AttendanceCalculator = () => {
     }
     
     return (
+        
         <div className='wrapper'>
             <div className="present">
                 <div>Classes Attended : </div>
@@ -44,5 +45,6 @@ export const AttendanceCalculator = () => {
                 {outputValue}
             </div>
         </div>
+        
     );
 }

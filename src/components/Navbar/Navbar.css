@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
 .wrapper-navbar{
     background-color: lightseagreen;
     width: 100%;
@@ -8,20 +11,39 @@
 }
 
 .sitename{
-    font-size: xx-large;
-    padding: 15px 40px 15px 40px;
-    font-family:cursive;
+    font-size: 3rem;
+    /* padding: 15px 40px 15px 40px; */
+    padding-left: 1rem;
+    /* padding-right: 40px;  */
+    font-family: 'Cedarville Cursive', cursive;
     color: aliceblue;
 }
 
 .forkongithub{
     margin-left: auto;
-    padding: 10px;
-    margin-right: 10px;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border: 0.2rem;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color:aliceblue;
+    color:aliceblue;
+    font-weight: bolder;
+    /* margin-right: 10px; */
+    
+    /* display: none; */
 }
 
-#github-logo{
-    /* margin-left: auto; */
-    /* width: 2rem; */
-    height: 100%;
+
+@media screen and (max-width: 1000px) {
+    .forkongithub{
+        margin-left: auto;
+        margin-right: 0.5rem;
+        /* padding: 2.2rem; */
+        border: 0.1rem;
+        border-style: solid;
+        /* margin-right: 10px; */
+        
+        display: none;
+    }
 }
