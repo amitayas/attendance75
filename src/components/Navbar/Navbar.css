@@ -1,0 +1,27 @@
+.wrapper-navbar{
+    background-color: lightseagreen;
+    width: 100%;
+    height : 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitename{
+    font-size: xx-large;
+    padding: 15px 40px 15px 40px;
+    font-family:cursive;
+    color: aliceblue;
+}
+
+.forkongithub{
+    margin-left: auto;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#github-logo{
+    /* margin-left: auto; */
+    /* width: 2rem; */
+    height: 100%;
+}
