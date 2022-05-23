@@ -1,6 +1,6 @@
 import "./Navbar.css";
 
-import githublogo from '../../assets/logos/github.png'
+// import githublogo from '../../assets/logos/github.png'
 
 
 export const Navbar = () => {
